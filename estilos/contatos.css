@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  body{
+    background-color: #C71585;
+  }
+    
+  section{
+    position: relative;
+    border-radius: 5vw;
+    background-color: white;
+    width: 70vw;
+    height: 35vw;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+  
+  #imagem img{
+    position: absolute;
+    width: 43vw;
+    height: 35vw;
+  }
+  
+  #texto{
+    position: absolute;
+    left: 43vw;
+    color: black;
+    text-align: center;
+  }
+  
+  header{
+    border-top-right-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    background-color: hotpink;
+    color: white;
+    font-size: 20px;
+    margin-top: 1vw;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    height: 1vw;
+    width: 15vw;
+  }
+  
+  article #informacoes{
+    margin-top: 3vw;
+    margin-left: 5vw;
+  }
+  
+  article .botao{
+    margin-top: 3vw;
+    margin-left: 5vw;
+  }
+  
+  button{
+    height: 3vw;
+    width: 15vw;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 2vw;
+    background-color: hotpink;
+    color: white;
+    border: transparent;
+    cursor: pointer;
+  }
+  
+  section article button:hover{
+    background-color: DeepPink;
+  }
+  
+  
+  
