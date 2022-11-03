@@ -66,6 +66,12 @@
     text-align: left;
   }
   
+  /* Efeito ao passar o mouse nos submenu */
+  .dropdown-content a:hover {
+    background-color: pink;
+    transition: all .5s ease-in-out;
+  }
+  
   .dropdown:hover .dropdown-content {
     display: block;
   }
@@ -207,5 +213,52 @@
     text-align: center;
     font-size: 2vw;
   }
+
+  
+  /* Rodapé */
+  footer{
+    display: flex;
+    background-color: DeepPink;
+    color: white;
+    padding-bottom: 5vw;
+    padding-left: 20vw;
+    font-size: 2vw;
+  }
+  
+  footer img{
+    margin-top: 8vw;
+    margin-right: 2vw;
+  }
+  
+  footer div{
+    margin-left: 5vw;
+  }
+  
+  /* Títulos do rodapé */
+  footer div .titulo{
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+  }
+  
+  footer div p{
+    margin-top: 0;
+    font-size: 80%;
+    text-align: justify;
+  }
+  
+  /* Links do rodapé */
+  footer div a{
+    text-decoration: none;
+    font-size: 2vw;
+    color: white;
+  }
+  
+  /* Efeito ao colocar o mouse em cima dos links do rodapé */
+  footer div a:hover {
+    color: black;
+    transition: all .5s ease-in-out;
+  }
+  
   
   

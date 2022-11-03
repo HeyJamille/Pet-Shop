@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
   
-  body{
+  body {
     background-color: deeppink;
   }
-  /*
-  section{
+  
+  section {
     margin-top: 4vw;
     margin-left: 10vw;
     margin-right: 10vw;
@@ -17,4 +17,11 @@
     border-radius: 5vw;
     box-shadow: 20px -16px pink;
   }
-  */
+  
+  section {
+    top: 5vw;
+    text-align: center;
+    font-size: 2vw;
+  }
+
+

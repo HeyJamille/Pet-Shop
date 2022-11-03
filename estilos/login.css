@@ -67,15 +67,12 @@
     font-size: 20px;
   }
   
-  article #botao{
-    margin-top: 3vw;
-    margin-left: 5vw;
-  }
-  
-  button{
+  button {
     height: 3vw;
     width: 13vw;
     font-size: 15px;
+    margin-top: 3vw;
+    margin-left: 5vw;
     padding-bottom: 20px;
     padding-top: 10px;
     border-radius: 2vw;
