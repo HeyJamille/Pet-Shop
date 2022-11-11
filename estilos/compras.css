@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  background-color: deeppink;
+}
+
+header {
+  font-size: 2vw;
+  text-align: center;
+  padding-top: 3vw;
+  font-weight: bold;
+}
+
+section {
+  position: relative;
+  border-radius: 5vw;
+  background-color: white;
+  width: 40vw;
+  height: 30vw;
+  margin-top: 8vw;
+  margin-bottom: 6vw;
+  margin-left: 30vw;
+  margin-right: 25vw;
+  box-shadow: 2vw -1vw pink;
+}
+
+section #informacoes {
+  display: block;
+  margin-top: 5vw;
+  text-align: center;
+  font-size: 2vw;
+}
+
+section #informacoes label {
+  padding-left: 1vw;
+}
+
+section button {
+  margin-top: 8vw;
+  margin-left: 14vw;
+  height: 3vw;
+  width: 13vw;
+  border-radius: 2vw;
+  border: none;
+  background-color: hotpink;
+  cursor: pointer;
+}
+
+section button:hover {
+  background-color: deeppink;
+  color: white;
+}
+

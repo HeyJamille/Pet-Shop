@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Farmácia</title>
-  <link href="./estilos/acessorio_cachorro.css" rel="stylesheet" type="text/css" />
+  <title>Acessórios</title>
+  <link href="./estilos/acessorio.css" rel="stylesheet" type="text/css" />
 </head>
-  
+
 <body>
   <nav>
     <header>
@@ -19,7 +19,7 @@
       </li>
       
       <li class="dropdown">
-        <a href="#" class="dropbtn" id="cachorro">Cachorros</a>
+        <a style="color:black;" href="#" class="dropbtn" id="cachorro">Cachorros</a>
         <div class="dropdown-content">
           <a href="racao_cachorro.html">Ração</a>
           <a href="farmacia_cachorro.html">Farmácia</a>
@@ -56,11 +56,11 @@
     </ul>
 
     <a href="#" onclick="mensagem()" id="login">
-      <img src="./images/login.png" alt="login">
+      <img src="./images/login.png" alt="logi">
     </a>
 
     <a href="carrinho.html" id="sacola">
-      <img src="./images/sacola.png" alt="sacola">
+      <img src="./images/sacola.png" alt="carrinho">
     </a>
   </nav>
 
@@ -70,328 +70,546 @@
         Brinquedos
       </header>
       
-      <div>
-        <img src="./images/racao1.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Bolinhas.png">
+        <p>Bola Clavo</p>
+        <p>R$: 4,99</p>
+        
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt33">
+        </span>
 
-        <button type="button">Adicionar ao Carrinho</button>
+        <a href="carrinho.html">
+          <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Bola Clavo - C', document.getElementById('qnt33').value, '4.99', 33)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
       </div>
 
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Galinha.png">
+        <p>Galinha</p>
+        <p>R$: 9,99</p>
 
-        <button type="button">Adicionar ao Carrinho</button>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt34">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar2" id="produto2" onclick="AddCarrinho('Galinha - C', document.getElementById('qnt34').value, '9.99', 34)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
       </div>
       
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Corda.png">
+        <p>Corda para Morder</p>
+        <p>R$: 19,99</p>
 
-        <button type="button">Adicionar ao Carrinho</button>
-      </div>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt35">
+        </span>
 
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
-
-        <button type="button">Adicionar ao Carrinho</button>
-      </div>
-
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
-
-        <button type="button">Adicionar ao Carrinho</button>
-      </div>
-
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
-
-        <a href="#">
-          <button type="button">Adicionar ao 
-          Carrinho</button>
+        <a href="carrinho.html">
+          <button type="button" id="adicionar3" id="produto3" onclick="AddCarrinho('Corda para Morder - C', document.getElementById('qnt35').value, '19.99', 35)">
+            Adicionar ao Carrinho
+          </button>
         </a>
       </div>
 
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Osso.png">
+        <p>Osso</p>
+        <p>R$: 24,90</p>
 
-        <a href="#">
-          <button type="button">Adicionar ao 
-          Carrinho</button>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt36">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar4" id="produto4" onclick="AddCarrinho('Osso - C', document.getElementById('qnt36').value, '24.90', 36)">
+            Adicionar ao Carrinho
+          </button>
         </a>
       </div>
 
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Macaco.png">
+        <p>Macaco de Pelúcia</p>
+        <p>R$: 21,99</p>
 
-        <a href="#">
-          <button type="button">Adicionar ao 
-          Carrinho</button>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt37">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar5" id="produto5" onclick="AddCarrinho('Macaco de Pelúcia - C', document.getElementById('qnt37').value, '21.99', 37)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Cenoura.png">
+        <p>Cenoura de Borracha</p>
+        <p>R$: 53,91</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt38">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar6" id="produto6" onclick="AddCarrinho('Cenoura de Borracha - C', document.getElementById('qnt38').value, '53.91', 38)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Porquinho.png">
+        <p>Porquinho</p>
+        <p>R$: 39,99</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt39">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar7" id="produto7" onclick="AddCarrinho('Porquinho - C', document.getElementById('qnt39').value, '39.99', 39)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Abóbora.png">
+        <p>Abóbora de Pelúcia</p>
+        <p>R$: 49,99</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt40">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar8" id="produto8" onclick="AddCarrinho('Abóbora de Pelúcia - C', document.getElementById('qnt40').value, '49.99', 40)">
+            Adicionar ao Carrinho
+          </button>
         </a>
       </div>
     </article> 
   </section>
 
-  <section class="section2">
-    <article class="article2">
+  <section class="section1">
+    <article class="article1">
       <header> 
         Coleiras
       </header>
       
-      <div>
-        <img src="./images/racao1.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Peitoral.png">
+        <p>Peitoral 8</p>
+        <p>R$: 98,00</p>
 
-        <button type="button">Adicionar ao Carrinho</button>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt41">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar9" id="produto9" onclick="AddCarrinho('Peitoral 8 - C', document.getElementById('qnt41').value, '98.00', 41)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
       </div>
 
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Coleira + Peitoral Azul.png">
+        <p>Peitoral + Guia Azul</p>
+        <p>R$: 37,99</p>
 
-        <button type="button">Adicionar ao Carrinho</button>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt42">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar10" id="produto10" onclick="AddCarrinho('Peitoral + Guia Azul - C', document.getElementById('qnt42').value, '37.99', 42)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
       </div>
       
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Coleira de Couro.png">
+        <p>Coleira de Couro</p>
+        <p>R$: 16,99</p>
 
-        <button type="button">Adicionar ao Carrinho</button>
-      </div>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt43">
+        </span>
 
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
-
-        <button type="button">Adicionar ao Carrinho</button>
-      </div>
-
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
-
-        <button type="button">Adicionar ao Carrinho</button>
-      </div>
-
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
-
-        <a href="#">
-          <button type="button">Adicionar ao 
-          Carrinho</button>
+        <a href="carrinho.html">
+          <button type="button" id="adicionar11" id="produto11" onclick="AddCarrinho('Coleira de Couro - C', document.getElementById('qnt43').value, '16.99', 43)">
+            Adicionar ao Carrinho
+          </button>
         </a>
       </div>
 
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Coleira Azul.png">
+        <p>Coleira Griff Azul</p>
+        <p>R$: 14,99</p>
 
-        <a href="#">
-          <button type="button">Adicionar ao 
-          Carrinho</button>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt44">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar12" id="produto12" onclick="AddCarrinho('Coleira Griff Azul - C', document.getElementById('qnt44').value, '14.99', 44)">
+            Adicionar ao Carrinho
+          </button>
         </a>
       </div>
 
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Coleira Rosa.png">
+        <p>Coleira Griff Rosa</p>
+        <p>R$: 14,99</p>
 
-        <a href="#">
-          <button type="button">Adicionar ao 
-          Carrinho</button>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt45">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar13" id="produto13" onclick="AddCarrinho('Coleira Griff Rosa - C', document.getElementById('qnt45').value, '14.99', 45)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Coleira com Asa.png">
+        <p>Coleira Anjo Azul</p>
+        <p>R$: 18,71</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt46">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar14" id="produto14" onclick="AddCarrinho('Coleira Anjo Azul - C', document.getElementById('qnt46').value, '18.71', 46)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Coleira + Peitoral Rosa.png">
+        <p>Peitoral + Guia Rosa</p>
+        <p>R$: 37,99</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt47">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar15" id="produto15" onclick="AddCarrinho('Peitoral + Guia Rosa - C', document.getElementById('qnt47').value, '37.99', 47)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Corrente.png">
+        <p>Coleira Corrente</p>
+        <p>R$: 20,00 </p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt48">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar16" id="produto16" onclick="AddCarrinho('Coleira Corrente - C', document.getElementById('qnt48').value, '20.00', 48)">
+            Adicionar ao Carrinho
+          </button>
         </a>
       </div>
       
     </article> 
   </section>
 
-  <section class="section2">
-    <article class="article2">
+  <section class="section1">
+    <article class="article1">
       <header> 
         Casas e Tocas
       </header>
       
-      <div>
-        <img src="./images/racao1.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Casa com Cama.png">
+        <p>Casa com Cama</p>
+        <p>R$: 229,90 </p>
 
-        <button type="button">Adicionar ao Carrinho</button>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt49">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar9" id="produto9" onclick="AddCarrinho('Casa com Cama - C', document.getElementById('qnt49').value, '229.90', 49)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
       </div>
 
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Casa de Madeira.png">
+        <p>Casa de Madeira</p>
+        <p>R$: 150.00</p>
 
-        <button type="button">Adicionar ao Carrinho</button>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt50">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar10" id="produto10" onclick="AddCarrinho('Casa de Madeira - C', document.getElementById('qnt50').value, '150.00', 50)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
       </div>
       
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Casa Desmontavel.png">
+        <p>Casa Desmontável</p>
+        <p>R$: 669.90</p>
 
-        <button type="button">Adicionar ao Carrinho</button>
-      </div>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt51">
+        </span>
 
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
-
-        <button type="button">Adicionar ao Carrinho</button>
-      </div>
-
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
-
-        <button type="button">Adicionar ao Carrinho</button>
-      </div>
-
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
-
-        <a href="#">
-          <button type="button">Adicionar ao 
-          Carrinho</button>
+        <a href="carrinho.html">
+          <button type="button" id="adicionar11" id="produto11" onclick="AddCarrinho('Casa Desmontável - C', document.getElementById('qnt51').value, '669.90', 51)">
+            Adicionar ao Carrinho
+          </button>
         </a>
       </div>
 
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Casa Azul.png">
+        <p>Toca Azul</p>
+        <p>R$: 199,99</p>
 
-        <a href="#">
-          <button type="button">Adicionar ao 
-          Carrinho</button>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt52">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar12" id="produto12" onclick="AddCarrinho('Toca Azul - C', document.getElementById('qnt52').value, '199.99', 52)">
+            Adicionar ao Carrinho
+          </button>
         </a>
       </div>
 
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Toca Cinza.png">
+        <p>Toca Cinza</p>
+        <p>R$: 189,90</p>
 
-        <a href="#">
-          <button type="button">Adicionar ao 
-          Carrinho</button>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt53">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar13" id="produto13" onclick="AddCarrinho('Toca Cinza - C', document.getElementById('qnt53').value, '189.90', 53)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Cama Nuvem.png">
+        <p>Cama Nuvem</p>
+        <p>R$: 199.99</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt54">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar14" id="produto14" onclick="AddCarrinho('Cama Nuvem - C', document.getElementById('qnt54').value, '199.99', 54)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Casa Grande.png">
+        <p>Casa Grande</p>
+        <p>R$: 273,90</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt55">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar15" id="produto15" onclick="AddCarrinho('Casa Grande - C', document.getElementById('qnt55').value, '273.90', 55)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Casa de Morango.png">
+        <p>Casa de Morango</p>
+        <p>R$: 229,90</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt56">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar16" id="produto16" onclick="AddCarrinho('Casa de Morango - C', document.getElementById('qnt56').value, '229.90', 56)">
+            Adicionar ao Carrinho
+          </button>
         </a>
       </div>
       
     </article> 
   </section>
 
-  <section class="section2">
-    <article class="article2">
+  <section class="section1">
+    <article class="article1">
       <header> 
-        Camas e Cobertores
+        Roupas
       </header>
       
-      <div>
-        <img src="./images/racao1.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/AdiDog.png">
+        <p>AdiDog</p>
+        <p>R$: 89,90</p>
 
-        <button type="button">Adicionar ao Carrinho</button>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt57">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar9" id="produto9" onclick="AddCarrinho('AdiDog - C', document.getElementById('qnt57').value, '89.90', 57)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
       </div>
 
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Roupa Cirurgica.png">
+        <p>Roupa Cirurgica</p>
+        <p>R$: 49,99</p>
 
-        <button type="button">Adicionar ao Carrinho</button>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt58">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar10" id="produto10" onclick="AddCarrinho('Roupa Cirurgica - C', document.getElementById('qnt58').value, '49.99', 58)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
       </div>
       
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Roupa com Capuz.png">
+        <p>Roupa com Capuz</p>
+        <p>R$: 199,00</p>
 
-        <button type="button">Adicionar ao Carrinho</button>
-      </div>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt59">
+        </span>
 
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
-
-        <button type="button">Adicionar ao Carrinho</button>
-      </div>
-
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
-
-        <button type="button">Adicionar ao Carrinho</button>
-      </div>
-
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
-
-        <a href="#">
-          <button type="button">Adicionar ao 
-          Carrinho</button>
+        <a href="carrinho.html">
+          <button type="button" id="adicionar11" id="produto11" onclick="AddCarrinho('Roupa com Capuz - C', document.getElementById('qnt59').value, '199.00', 59)">
+            Adicionar ao Carrinho
+          </button>
         </a>
       </div>
 
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Blusa Moletom.png">
+        <p>Blusa Moletom</p>
+        <p>R$: 21,80</p>
 
-        <a href="#">
-          <button type="button">Adicionar ao 
-          Carrinho</button>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt60">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar12" id="produto12" onclick="AddCarrinho('Blusa Moletom - C', document.getElementById('qnt60').value, '21.80', 60)">
+            Adicionar ao Carrinho
+          </button>
         </a>
       </div>
 
-      <div>
-        <img src="./images/racao2.jpeg">
-        <p>Golden</p>
-        <p>R$: 120,00</p>
+      <div class="div-principal">
+        <img src="./images/Roupa Hot Dog.png">
+        <p>Roupa Hot Dog</p>
+        <p>R$: 65,00</p>
 
-        <a href="#">
-          <button type="button">Adicionar ao 
-          Carrinho</button>
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt61">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar13" id="produto13" onclick="AddCarrinho('Roupa Hot Dog - C', document.getElementById('qnt61').value, '65.00', 61)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Roupa Batman.png">
+        <p>Roupa Batman</p>
+        <p>R$: 65,00</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt62">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar14" id="produto14" onclick="AddCarrinho('Roupa Batman - C', document.getElementById('qnt62').value, '65.00', 62)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Roupa Melancia.png">
+        <p>Roupa Melancia</p>
+        <p>R$: 65,00</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt63">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar15" id="produto15" onclick="AddCarrinho('Roupa Melancia - C', document.getElementById('qnt63').value, '65.00', 63)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Vestido Rosa.png">
+        <p>Vestido Rosa</p>
+        <p>R$: 38,00</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt64">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar16" id="produto16" onclick="AddCarrinho('Vestido Rosa - C', document.getElementById('qnt64').value, '38.00', 64)">
+            Adicionar ao Carrinho
+          </button>
         </a>
       </div>
       
     </article> 
   </section>
-
-  <!-- Rodapé-->
   <footer>
     <img src="#" alt="imagem">
 

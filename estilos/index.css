@@ -1,270 +1,270 @@
-*{
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
   
-  body {
-    background-color: white;
-  }
+body {
+  background-color: white;
+}
   
-  nav{
-    background-color: DeepPink;
-  }
+nav {
+  background-color: DeepPink;
+}
   
-  nav header {
-    position: absolute;
-    color: white;
-    font-size: 3vw;
-    padding-top: 2%;
-    padding-left: 5vw;
-  }
+nav header {
+  position: absolute;
+  color: white;
+  font-size: 3vw;
+  padding-top: 2%;
+  padding-left: 5vw;
+}
   
-  ul {
-    list-style-type: none;
-    overflow: hidden;
-    margin-left: 30vw;
-    padding-top: 3vw;
-    padding-bottom: 3vw;
-  }
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 30vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
   
-  li {
-    float: left;
-  }
+li {
+  float: left;
+}
   
-  li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    padding-left: 5vw;
-    text-decoration: none;
-    font-size: 2vw;
-  }
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  padding-left: 5vw;
+  text-decoration: none;
+  font-size: 2vw;
+}
   
-  li .dropdown {
-    display: inline-block;
-  }
+li .dropdown {
+  display: inline-block;
+}
   
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    width: 11vw;
-    margin-left: 3vw;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  width: 11vw;
+  margin-left: 3vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
   
-  .dropdown-content a {
-    color: black;
-    padding: 1vw;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
+.dropdown-content a {
+  color: black;
+  padding: 1vw;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
   
-  /* Efeito ao passar o mouse nos submenu */
-  .dropdown-content a:hover {
-    background-color: pink;
-    transition: all .5s ease-in-out;
-  }
+/* Efeito ao passar o mouse nos submenu */
+.dropdown-content a:hover {
+  background-color: pink;
+  transition: all .5s ease-in-out;
+}
   
-  /* Mostrar o submenu */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+/* Mostrar o submenu */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
   
-  nav #login img{
-    position: absolute;
-    top: 3vw;
-    left: 90vw;
-    width: 3vw;
-    height: 3vw;
-  }
+nav #login img {
+  position: absolute;
+  top: 3vw;
+  left: 90vw;
+  width: 3vw;
+  height: 3vw;
+}
   
-  nav #sacola img{
-    position: absolute;
-    top: 3vw;
-    left: 85vw;
-    width: 3vw;
-    height: 3vw;
-  }
+nav #sacola img { 
+  position: absolute;
+  top: 3vw;
+  left: 85vw;
+  width: 3vw;
+  height: 3vw;
+}
   
-  /*imagem principal*/
-  section #imagem img{
-    position: absolute;
-    margin-left: 0;
-    padding-top: 4vw;
-    width: 100vw;
-    height: 31vw;
-  }
+/*imagem principal*/
+section #imagem img {
+  position: absolute;
+  margin-left: 0;
+  padding-top: 4vw;
+  width: 100vw;
+  height: 31vw;
+}
   
-  /*Frase em cima da imagem principal*/
-  section p{
-    text-align: center;
-    font-size: 2vw;
-    margin-top: 5vw;
-  }
+/*Frase em cima da imagem principal*/
+section p {
+  text-align: center;
+  font-size: 2vw;
+  margin-top: 5vw;
+}
   
-  /*CONFIGURAÇÕES DA SEGUNDA TELA*/
+/*CONFIGURAÇÕES DA SEGUNDA TELA*/
   
-  /*Toda a parte da segunda tela*/
-  section article{
-    position: absolute;
-    top: 50vw;
-    background-color: pink;
-    width: 99vw;
-    height: 48vw;
-  }
+/*Toda a parte da segunda tela*/
+section article {
+  position: absolute;
+  top: 50vw;
+  background-color: pink;
+  width: 99vw;
+  height: 48vw;
+}
   
-  /*Frase "O que você poderá consultar em nosso site?"*/
-  section article #frase_main{
-    position: relative;
-    margin-top: 0;
-    background-color: DeepPink;
-    width: 93vw;
-    padding: 3vw;
-    color: white;
-    text-align: center;
-    font-size: 2vw;
-  }
+/*Frase "O que você poderá consultar em nosso site?"*/
+section article #frase_main {
+  position: relative;
+  margin-top: 0;
+  background-color: DeepPink;
+  width: 93vw;
+  padding: 3vw;
+  color: white;
+  text-align: center;
+  font-size: 2vw;
+}
   
-  /*Parte dos quadrados de saber oque gostaria de consultar*/
-  section article main{
-    position: absolute;
-    top: 20vw;
-    left: 12vw;
-    right: 12vw;
-  }
+/*Parte dos quadrados de saber oque gostaria de consultar*/
+section article main {
+  position: absolute;
+  top: 20vw;
+  left: 12vw;
+  right: 12vw;
+}
   
-  /*Imagens dos quadrados*/
-  section article main img {
-    width: 10vw;
-    height: 6vw;
-    margin-left: 17%;
-  }
+/*Imagens dos quadrados*/
+section article main img {
+  width: 10vw;
+  height: 6vw;
+  margin-left: 17%;
+}
   
-  /*Palavra dos quadrados*/
-  section article main p{
-    color: #000000;
-    margin-top: 0;
-  }
+/*Palavra dos quadrados*/
+section article main p {
+  color: #000000;
+  margin-top: 0;
+}
   
-  /*Botão dos quadrados*/
-  section article main button{
-    position: absolute;
-    font-size: 1vw;
-    background-color: hotpink;
-    border-radius: 5vw;
-    border: none;
-    height: 3vw;
-    width: 9vw;
-    top: 11vw;
-    left: 21%;
-    cursor: pointer; 
-  }
+/*Botão dos quadrados*/
+section article main button {
+  position: absolute;
+  font-size: 1vw;
+  background-color: hotpink;
+  border-radius: 5vw;
+  border: none;
+  height: 3vw;
+  width: 9vw;
+  top: 11vw;
+  left: 21%;
+  cursor: pointer; 
+}
   
-  /* Efeito ao colocar o mouse em cima dos botões */
-  section article main button:hover{
-    background-color: DeepPink;
-    color: white;
-  }
+/* Efeito ao colocar o mouse em cima dos botões */
+section article main button:hover {
+  background-color: DeepPink;
+  color: white;
+}
   
-  /* Efeito ao colocar o mouse em cima dos quadrados */
-  section article main div:hover {
-    top: -2px;
-    box-shadow: 0 5px 5px #999;
-    transition: all .2s ease-in-out;
-  }
+/* Efeito ao colocar o mouse em cima dos quadrados */
+section article main div:hover {
+  top: -2px;
+  box-shadow: 0 5px 5px #999;
+  transition: all .2s ease-in-out;
+}
     
-  /*Cachorro*/
-  section article #cachorro{
-    position: relative;
-    border: 1px solid HotPink;
-    border-radius: 2vw;
-    display: inline-block;
-    background-color: white;
-    width: 15vw;
-    height: 15vw;
-  }
+/*Cachorro*/
+section article #cachorro {
+  position: relative;
+  border: 1px solid HotPink;
+  border-radius: 2vw;
+  display: inline-block;
+  background-color: white;
+  width: 15vw;
+  height: 15vw;
+}
   
-  /*Gato*/
-  section article #gato{
-    position: absolute;
-    border: 1px solid HotPink;
-    border-radius: 2vw;
-    background-color: white;
-    display: inline;
-    left: 20vw;
-    width: 15vw;
-    height: 15vw;
-  }
+/*Gato*/
+section article #gato {
+  position: absolute;
+  border: 1px solid HotPink;
+  border-radius: 2vw;
+  background-color: white;
+  display: inline;
+  left: 20vw;
+  width: 15vw;
+  height: 15vw;
+}
   
-  /*Peixe*/
-  section article #peixe{
-    position: absolute;
-    border: 1px solid HotPink;
-    border-radius: 2vw;
-    background-color: white;
-    display: inline;
-    left: 40vw;
-    width: 15vw;
-    height: 15vw;
-  }
+/*Peixe*/
+section article #peixe {
+  position: absolute;
+  border: 1px solid HotPink;
+  border-radius: 2vw;
+  background-color: white;
+  display: inline;
+  left: 40vw;
+  width: 15vw;
+  height: 15vw;
+}
   
-  /*Pássaro*/
-  section article #passaro{
-    position: absolute;
-    border: 1px solid HotPink;
-    border-radius: 2vw;
-    background-color: white;
-    display: inline;
-    left: 60vw;
-    width: 15vw;
-    height: 15vw;
-  }
+/*Pássaro*/
+section article #passaro {
+  position: absolute;
+  border: 1px solid HotPink;
+  border-radius: 2vw;
+  background-color: white;
+  display: inline;
+  left: 60vw;
+  width: 15vw;
+  height: 15vw;
+}
   
-  /*RodaPé*/
-  footer{
-    display: flex;
-    background-color: DeepPink;
-    color: white;
-    margin-top: 79vw;
-    padding-bottom: 5vw;
-    padding-left: 20vw;
-    font-size: 2vw;
-  }
+/* RodaPé */
+footer {
+  display: flex;
+  background-color: DeepPink;
+  color: white;
+  margin-top: 79vw;
+  padding-bottom: 5vw;
+  padding-left: 20vw;
+  font-size: 2vw;
+}
   
-  footer img{
-    margin-top: 8vw;
-    margin-right: 2vw;
-  }
+footer img {
+  margin-top: 8vw;
+  margin-right: 2vw;
+}
   
-  footer div{
-    margin-left: 5vw;
-  }
+footer div {
+  margin-left: 5vw;
+}
   
-  /* Títulos do rodapé */
-  footer div .titulo{
-    margin-top: 5vw;
-    margin-bottom: 2vw;
-    font-size: 2vw;
-  }
+/* Títulos do rodapé */
+footer div .titulo {
+  margin-top: 5vw;
+  margin-bottom: 2vw;
+  font-size: 2vw;
+}
   
-  footer div p{
-    margin-top: 0;
-    font-size: 80%;
-    text-align: justify;
-  }
+footer div p {
+  margin-top: 0;
+  font-size: 80%;
+  text-align: justify;
+}
   
-  /* Links do rodapé */
-  footer div a{
-    text-decoration: none;
-    font-size: 2vw;
-    color: white;
-  }
+/* Links do rodapé */
+footer div a {
+  text-decoration: none;
+  font-size: 2vw;
+  color: white;
+}
   
-  /* Efeito ao colocar o mouse em cima dos links do rodapé */
-  footer div a:hover {
-    color: black;
-    transition: all .5s ease-in-out;
-  }
+/* Efeito ao colocar o mouse em cima dos links do rodapé */
+footer div a:hover {
+  color: black;
+  transition: all .5s ease-in-out;
+}
   

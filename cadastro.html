@@ -1,63 +1,57 @@
 <!DOCTYPE HTML>
 <html lang="pt-br">
-  <head>
-    <meta name="viewport" content="width=device-
-    width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>Cadastro</title>
-    <link href="./estilos/cadastro.css" type="text/css" 
-    rel="stylesheet"/>
-  </head>
+<head>
+  <meta name="viewport" content="width=device-
+  width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Cadastro</title>
+  <link href="./estilos/cadastro.css" type="text/css" 
+  rel="stylesheet"/>
+</head>
   
-  <body>
-    <section>
-      <aside id="imagem">
-        <img src="./images/animais4.jpeg">
-      </aside>
+<body>
+  <section>
+    <aside id="imagem">
+      <img src="./images/animais4.jpeg">
+    </aside>
     
-      <article id="texto">
-        <header>Seja Muito Bem Vindo!</header>
-        <p>Crie sua Conta</p>
+    <article id="texto">
+      <header>Seja Muito Bem Vindo!</header>
+      <p>Crie sua Conta</p>
 
-        <form id="informacoes">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" placeholder="Digite seu nome">
+      <form id="informacoes">
+        <label for="nome">Nome:</label>
+        <input type="text" class="input" id="nome" placeholder="Digite seu nome">
         
-            <br><br>
+        <br><br>
           
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" 
-            placeholder="Digite um e-mail válido">
+        <label for="email">E-mail:</label>
+        <input type="email" class="input" id="email" placeholder="Digite um e-mail válido">
         
-            <br><br>
+        <br><br>
         
-            <label for="celular">Celular:</label>
-            <input type="text" id="celular" 
-            placeholder="Digite o seu número">
+        <label for="celular">Celular:</label>
+        <input type="text" class="input" id="celular" placeholder="Digite o seu número">
         
-            <br><br>
+        <br><br>
 
-            <label id="CPF" for="CPF">CPF:</label>
-            <input type="text" id="CPF"  
-            placeholder="Digite o seu CPF">
+        <label for="CPF">CPF:</label>
+        <input type="text" class="input" id="CPF" placeholder="Digite o seu CPF">
 
-            <br><br>
+        <br><br>
           
-            <label for="senha">Senha:</label>
-            <input type="password" id="senha" 
-            placeholder="Digite uma senha">
+        <label for="senha">Senha:</label>
+        <input type="password" class="input" id="senha" placeholder="Digite uma senha">
+        
+        <br><br>
           
-          
-          <br><br>
-          
-          <a href="racao_cachorro.html">
-            <button type="button" 
-            id="finalizar">Entrar</button>
-          </a>  
-          
-          <br><br>
-        </form>
-         
-    </section>
-  </body>
+        <input id="botao" type="submit" value="Cadastrar" onclick="cadastrar(); return false">
+
+        <br><br>
+      </form>
+
+    </article>   
+  </section>
+  <script type="text/javascript" src="javascript/script.js"></script>
+</body>
 </html>

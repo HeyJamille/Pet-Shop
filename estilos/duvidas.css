@@ -1,82 +1,82 @@
-*{
-    margin: 0;
-    padding: 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
   
-  /*Imagem de fundo do site*/
-  body{
-    background-color: #C71585;;
-  }
+/*Imagem de fundo do site*/
+body {
+  background-color: #C71585;;
+}
   
-  /*Corpo do site*/
-  main{
-    position: relative;
-    height: 35vw;
-    width: 30vw;
-    border: none;
-    border-radius: 7vw;
-    margin-top: 5vw;
-    margin-left: 35vw;
-    background-color: white;
-  }
+/*Corpo do site*/
+main {
+  position: relative;
+  height: 35vw;
+  width: 30vw;
+  border: none;
+  border-radius: 7vw;
+  margin-top: 5vw;
+  margin-left: 35vw;
+  background-color: white;
+}
   
-  /*Borda que vai conter todas as informações do cadastro*/
-  #informacoes{
-    padding-top: 3vw;
-    padding-left: 7vw;
-  }
+/*Borda que vai conter todas as informações do cadastro*/
+#informacoes {
+  padding-top: 3vw;
+  padding-left: 7vw;
+}
   
-  /*Título "Cadastre-se" dentro do site*/
-  #infTitle{
-    margin-left: 1vw;
-  }
+/*Título "Cadastre-se" dentro do site*/
+#infTitle {
+  margin-left: 1vw;
+}
   
-  /*Configurações das caixas de texto*/
-  #informacoes input{
-    width: 15vw;
-    height: 2vw;
-    border: none;
-    border-bottom: 1px solid black;
-    outline: none;
-  }
+/*Configurações das caixas de texto*/
+#informacoes input {
+  width: 15vw;
+  height: 2vw;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
   
-  textarea{
-    resize: none;
-  }
+textarea {
+  resize: none;
+}
   
-  form #duvida label{
-    margin-left: 2vw;
-  }
+form #duvida label {
+  margin-left: 2vw;
+}
   
-  form #duvida span{
-    margin-left: 5vw;
-  }
+form #duvida span {
+  margin-left: 5vw;
+}
   
-  main #informacoes button{
-    height: 3vw;
-    width: 7vw;
-    border-radius: 10vw;
-    border: none;
-    background-color: hotpink;
-    color: white;
-    cursor: pointer;
-  }
+main #informacoes button {
+  height: 3vw;
+  width: 7vw;
+  border-radius: 10vw;
+  border: none;
+  background-color: hotpink;
+  color: white;
+  cursor: pointer;
+}
   
-  /* Botão enviar */
-  #enviar{
-    margin-top: 2vw;
-    margin-left: 8vw;
-  }
+/* Botão enviar */
+#enviar {
+  margin-top: 2vw;
+  margin-left: 8vw;
+}
   
-  /* Botão voltar */
-  #voltar{
-    position: absolute;
-    margin-top: 2vw;
-    margin-left: 1vw;
-  }
+/* Botão voltar */
+#voltar {
+  position: absolute;
+  margin-top: 2vw;
+  margin-left: 1vw;
+}
   
-  main #informacoes button:hover{
-    background-color: deeppink;
-  }
+main #informacoes button:hover {
+  background-color: deeppink;
+}
     
     

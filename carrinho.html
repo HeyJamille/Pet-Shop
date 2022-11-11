@@ -10,13 +10,43 @@
 <body>
   <section>
     <article>
-      <h2>Carrinho de Compras</h2>
-      <span class="resultado"></span>
+      <header>Carrinho de Compras</header>
+      <h3>
+        OBS:
+        <span>C</span> - Cachorros; 
+        <span>G</span> - Gatos; 
+        <span>Pe</span>- Peixes; 
+        <span>Pa</span> - Pássaros
+      </h3>
 
+      <main>
+        <div id="itens">
+          <p>Itens:</p>
+        </div>
+
+        <div id="preco">
+          <p>Preço:</p>
+        </div>
+
+        <div id="subtotal">
+          <p>Subtotal:</p>
+        </div>
+
+        <div id="total"> </div>
+        
+        <div id="botoes">
+          <button type="button" id="voltar" onclick="voltar()"> Voltar </button>
+          <button type="button" id="limpar" onclick=" localStorage.clear(); location.reload();"> Limpar carrinho </button>
+
+          <a href="compras.html">
+            <button type="button" id="finalizar"> Finalizar </button>
+          </a>
+        </div>
+      </main>
 
     </article>
   </section>
-  <script src="./javascript/carrinho.js"></script>
+  <script src="./javascript/script.js"></script>
 </body>
 </html>
 

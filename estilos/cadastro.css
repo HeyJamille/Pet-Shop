@@ -1,99 +1,100 @@
-*{
+* {
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
+}
   
-  body{
+body {
     background-color: #C71585;
-  }
+}
     
-  section{
-    position: relative;
-    border-radius: 5vw;
-    background-color: white;
-    width: 70vw;
-    height: 35vw;
-    margin-top: 6vw;
-    margin-bottom: 6vw;
-    margin-left: 15vw;
-    margin-right: 15vw;
-  }
+section {
+  position: relative;
+  border-radius: 5vw;
+  background-color: white;
+  width: 70vw;
+  height: 35vw;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
   
-  #imagem img{
-    position: absolute;
-    width: 43vw;
-    height: 35vw;
-  }
+#imagem img {
+  position: absolute;
+  width: 43vw;
+  height: 35vw;
+}
   
-  #texto{
-    position: absolute;
-    left: 43vw;
-    color: black;
-    text-align: center;
-  }
+#texto { 
+  position: absolute;
+  left: 43vw;
+  color: black;
+  text-align: center;
+}
+
+header {
+  border-top-right-radius: 2vw;
+  border-bottom-right-radius: 2vw;
+  background-color: hotpink;
+  color: white;
+  font-size: 20px;
+  margin-top: 1vw;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  height: 1vw;
+  width: 15vw;
+}
   
-  header{
-    border-top-right-radius: 2vw;
-    border-bottom-right-radius: 2vw;
-    background-color: hotpink;
-    color: white;
-    font-size: 20px;
-    margin-top: 1vw;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    height: 1vw;
-    width: 15vw;
-  }
+article p {
+  margin-top: 4vw;
+  margin-left: 5vw;
+  font-size: 2vw;
+}
   
-  article p{
-    margin-top: 4vw;
-    margin-left: 5vw;
-    font-size: 2vw;
-  }
+article #informacoes {
+  margin-top: 2vw;
+  margin-left: 4vw;
+}
   
-  article #informacoes{
-    margin-top: 2vw;
-    margin-left: 4vw;
-  }
+article #CPF {
+  margin-left: 1vw;
+  padding-left: 2px;
+}
   
-  article #CPF {
-    margin-left: 1vw;
-    padding-left: 2px;
-  }
+#informacoes .input {
+  border: none;
+  border-bottom: 1px solid black; 
+  outline: none;
+}
   
-  #informacoes input{
-    border: none;
-    border-bottom: 1px solid black; 
-    outline: none;
-  }
+#informacoes label {
+  font-size: 20px;
+}
   
-  #informacoes label{
-    font-size: 20px;
-  }
+article a #botao {
+  margin-top: 2vw;
+}
   
-  article a button{
-    margin-top: 2vw;
-  }
+#botao {
+  height: 3vw;
+  width: 13vw;
+  font-size: 15px;
+  margin-top: 1vw;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-radius: 2vw;
+  border: transparent;
+  background-color: hotpink;
+  color: white;
+  cursor: pointer; 
+}
   
-  button{
-    height: 3vw;
-    width: 13vw;
-    font-size: 15px;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    border-radius: 2vw;
-    border: transparent;
-    background-color: hotpink;
-    color: white;
-    cursor: pointer; 
-  }
-  
-  button:hover{
-    background-color: DeepPink;
-  }
+#botao:hover {
+  background-color: DeepPink;
+}
   
   
   

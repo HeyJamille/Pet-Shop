@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Farmácia</title>
+  <link href="./estilos/farmacia.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav>
+    <header>
+      FortalPets
+    </header>
+    
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      
+      <li class="dropdown">
+        <a href="#" class="dropbtn" id="cachorro">Cachorros</a>
+        <div class="dropdown-content">
+          <a href="racao_cachorro.html">Ração</a>
+          <a href="farmacia_cachorro.html">Farmácia</a>
+          <a href="acessorio_cachorro.html">Acessórios</a>
+        </div>
+      </li>
+      
+      <li class="dropdown">
+        <a href="#" class="dropbtn" id="gato">Gatos</a>
+        <div class="dropdown-content">
+          <a href="racao_gato.html">Ração</a>
+          <a href="farmacia_gato.html">Farmácia</a>
+          <a href="acessorio_gato.html">Acessórios</a>
+        </div>
+      </li>
+      
+      <li class="dropdown">
+        <a style="color:black;" href="#" class="dropbtn" id="peixe">Peixes</a>
+        <div class="dropdown-content">
+          <a href="racao_peixe.html">Ração</a>
+          <a href="farmacia_peixe.html">Farmácia</a>
+          <a href="acessorio_peixe.html">Acessórios</a>
+        </div>
+      </li>
+      
+      <li class="dropdown">
+        <a href="#" class="dropbtn" id="passaro">Pássaros</a>
+        <div class="dropdown-content">
+          <a href="racao_passaro.html">Ração</a>
+          <a href="farmacia_passaro.html">Farmácia</a>
+          <a href="acessorio_passaro.html">Acessórios</a>
+        </div>
+      </li>
+    </ul>
+
+    <a href="#" onclick="mensagem()" id="login">
+      <img src="./images/login.png" alt="logi">
+    </a>
+
+    <a href="carrinho.html" id="sacola">
+      <img src="./images/sacola.png" alt="carrinho">
+    </a>
+  </nav>
+
+  <section class="section1"> 
+    <article class="article1">
+      <header> 
+        Medicamentos
+      </header>
+      
+      <div class="div-principal">
+        <img src="./images/Stability - Peixe.png">
+        <p>Stability</p>
+        <p>R$: 120,00</p>
+        
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt137">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Stability - Pe', document.getElementById('qnt137').value, '120.00', 137)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Atlantys - Peixe.png">
+        <p>Atlantys</p>
+        <p>R$: 28,99</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt138">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar2" id="produto2" onclick="AddCarrinho('Atlantys - Pe', document.getElementById('qnt138').value, '28.99', 138)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+      
+      <div class="div-principal">
+        <img src="./images/Ictio - Peixe.png">
+        <p>Ictio</p>
+        <p>R$: 50,00</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt139">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar3" id="produto3" onclick="AddCarrinho('Labcon Ictio - Pe', document.getElementById('qnt139').value, '50.00', 139)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Labcon Bacter - Peixe.png">
+        <p>Labcon Bacter</p>
+        <p>R$: 15,99</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt140">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar4" id="produto4" onclick="AddCarrinho('Labcon Bacter - Pe', document.getElementById('qnt140').value, '15.99', 140)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Labcon Ictio - Peixe.png">
+        <p>Labcon Ictio</p>
+        <p>R$: 15,00</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt141">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar5" id="produto5" onclick="AddCarrinho('Labcon Ictio - Pe', document.getElementById('qnt141').value, '15.00', 141)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Mpetec - Peixe.png">
+        <p>Mpetec</p>
+        <p>R$: 89,99</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt142">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar6" id="produto6" onclick="AddCarrinho('Mpetec - Pe', document.getElementById('qnt142').value, '89.99', 142)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Labcon Sani - Peixe.png">
+        <p>Labcon Sani</p>
+        <p>R$: 11,70</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt143">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar7" id="produto7" onclick="AddCarrinho('Labcon Sani - Pe', document.getElementById('qnt143').value, '11.70', 143)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Labcon CloroTest - Peixe.png">
+        <p>Labcon CloroTest</p>
+        <p>R$: 14,90</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt144">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar8" id="produto8" onclick="AddCarrinho('Labcon CloroTest - Pe', document.getElementById('qnt144').value, '14,90', 144)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+    </article> 
+  </section>
+
+  <footer>
+    <img src="#" alt="imagem">
+
+    <div> 
+      <p class="titulo">Início</p>
+
+      <a href="index.html">
+        <p>Home</p>
+      </a>
+
+      <a href="index.html#frase_main">
+        <p>Categorias</p>
+      </a>
+    </div>
+    
+    <div>
+      <p class="titulo">Sobre Nós</p>
+
+      <a href="sobre_site.html">
+        <p>Sobre o Site</p>
+      </a>
+
+      <a href="sobre_empresa.html">
+        <p>Sobre a Empresa</p>
+      </a>
+    </div>
+    
+    <div>
+      <p class="titulo">Suporte</p>
+      
+      <a href="contatos.html">
+        <p>Contatos</p>
+      </a>
+      
+      <a href="duvidas.html">
+        <p>Dúvidas</p>
+      </a>
+    </div>
+  </footer>
+  <script type="text/javascript" src="javascript/script.js"></script>
+</body>
+</html>
+
+

@@ -17,20 +17,18 @@
       <header>Bem Vindo de Volta</header>
       <p>Entre em sua Conta</p>
 
-      <div id="informacoes">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" placeholder="Digite seu nome">
+      <form id="informacoes">
+        <label for="nome">Nome: </label>
+        <input type="text" class="input" id="nome" placeholder="Digite seu nome">
         
         <br><br>
 
-        <label for="senha">Senha:</label>
-        <input type="password" id="senha" placeholder="Digite uma senha">
-      </div>
-      
-      <a href="racao_cachorro.html" id="botao">
-        <button type="button">Entrar</button>
-      </a>
+        <label for="senha">Senha: </label>
+        <input type="password" class="input" id="senha" placeholder="Digite uma senha">
 
+        <input id="botao" type="submit" value="Entrar" onclick="logar(); return false">
+      </form>
+      
       <div id="cadastro">
         <p>Não possui conta?<br>
           <a href="cadastro.html">Cadastre-se.</a>
@@ -39,6 +37,7 @@
         
     </article>
   </section>
+  <script type="text/javascript" src="javascript/script.js"></script>
 </body>
 </html>
 

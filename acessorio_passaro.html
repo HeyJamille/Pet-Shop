@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Farmácia</title>
+  <link href="./estilos/acessorio.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav>
+    <header>
+      FortalPets
+    </header>
+    
+    <ul>
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      
+      <li class="dropdown">
+        <a href="#" class="dropbtn" id="cachorro">Cachorros</a>
+        <div class="dropdown-content">
+          <a href="racao_cachorro.html">Ração</a>
+          <a href="farmacia_cachorro.html">Farmácia</a>
+          <a href="acessorio_cachorro.html">Acessórios</a>
+        </div>
+      </li>
+      
+      <li class="dropdown">
+        <a href="#" class="dropbtn" id="gato">Gatos</a>
+        <div class="dropdown-content">
+          <a href="racao_gato.html">Ração</a>
+          <a href="farmacia_gato.html">Farmácia</a>
+          <a href="acessorio_gato.html">Acessórios</a>
+        </div>
+      </li>
+      
+      <li class="dropdown">
+        <a href="#" class="dropbtn" id="peixe">Peixes</a>
+        <div class="dropdown-content">
+          <a href="racao_peixe.html">Ração</a>
+          <a href="farmacia_peixe.html">Farmácia</a>
+          <a href="acessorio_peixe.html">Acessórios</a>
+        </div>
+      </li>
+      
+      <li class="dropdown">
+        <a style="color:black;" href="#" class="dropbtn" id="passaro">Pássaros</a>
+        <div class="dropdown-content">
+          <a href="racao_passaro.html">Ração</a>
+          <a href="farmacia_passaro.html">Farmácia</a>
+          <a href="acessorio_passaro.html">Acessórios</a>
+        </div>
+      </li>
+    </ul>
+
+    <a href="#" onclick="mensagem()" id="login">
+      <img src="./images/login.png" alt="logi">
+    </a>
+
+    <a href="carrinho.html" id="sacola">
+      <img src="./images/sacola.png" alt="carrinho">
+    </a>
+  </nav>
+
+  <section class="section1"> 
+    <article class="article1">
+      <header> 
+        Mais diversos Acessórios
+      </header>
+      
+      <div class="div-principal">
+        <img src="./images/Bebedouro - Passaro.png">
+        <p>Bebedouro</p>
+        <p>R$: 11,00</p>
+        
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt200">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar1" id="produto1" onclick="AddCarrinho('Bebedouro - Pa', document.getElementById('qnt200').value, '11.00', 200)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Rede - Passaro.png">
+        <p>Rede</p>
+        <p>R$: 28,99</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt201">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar2" id="produto2" onclick="AddCarrinho('Rede - Pa', document.getElementById('qnt201').value, '28.99', 201)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+      
+      <div class="div-principal">
+        <img src="./images/Comedouro - Passaro.png">
+        <p>Comedouro</p>
+        <p>R$: 10,00</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt202">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar3" id="produto3" onclick="AddCarrinho('Comedouro - Pa', document.getElementById('qnt202').value, '10.00', 202)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Banheira - Passaro.png">
+        <p>Banheira</p>
+        <p>R$: 4,99</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt203">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar4" id="produto4" onclick="AddCarrinho('Banheira - Pa', document.getElementById('qnt203').value, '4.99', 203)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Brinquedo - Passaro.png">
+        <p>Brinquedo</p>
+        <p>R$: 5,00</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt204">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar5" id="produto5" onclick="AddCarrinho('Brinquedo - Pa', document.getElementById('qnt204').value, '5.00', 204)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Poly Play - Passaro.png">
+        <p>Poly Play</p>
+        <p>R$: 129,99</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt205">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar6" id="produto6" onclick="AddCarrinho('Poly Play - Pa', document.getElementById('qnt205').value, '129.99', 205)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Poleiro - Passaro.png">
+        <p>Poleiro</p>
+        <p>R$: 21,70</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt206">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar7" id="produto7" onclick="AddCarrinho('Poleiro - Pa', document.getElementById('qnt206').value, '21.70', 206)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+
+      <div class="div-principal">
+        <img src="./images/Gaiola - Passaro.png">
+        <p>Gaiola</p>
+        <p>R$: 102,90</p>
+
+        <span class="qnt">
+          Quantidade: <input type="number" id="qnt207">
+        </span>
+
+        <a href="carrinho.html">
+          <button type="button" id="adicionar8" id="produto8" onclick="AddCarrinho('Gaiola  - Pa', document.getElementById('qnt207').value, '104,90', 207)">
+            Adicionar ao Carrinho
+          </button>
+        </a>
+      </div>
+    </article> 
+  </section>
+
+  <footer>
+    <img src="#" alt="imagem">
+
+    <div> 
+      <p class="titulo">Início</p>
+
+      <a href="index.html">
+        <p>Home</p>
+      </a>
+
+      <a href="index.html#frase_main">
+        <p>Categorias</p>
+      </a>
+    </div>
+    
+    <div>
+      <p class="titulo">Sobre Nós</p>
+
+      <a href="sobre_site.html">
+        <p>Sobre o Site</p>
+      </a>
+
+      <a href="sobre_empresa.html">
+        <p>Sobre a Empresa</p>
+      </a>
+    </div>
+    
+    <div>
+      <p class="titulo">Suporte</p>
+      
+      <a href="contatos.html">
+        <p>Contatos</p>
+      </a>
+      
+      <a href="duvidas.html">
+        <p>Dúvidas</p>
+      </a>
+    </div>
+  </footer>
+  <script type="text/javascript" src="javascript/script.js"></script>
+</body>
+</html>
+
+
