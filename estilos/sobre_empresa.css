@@ -16,7 +16,9 @@ section {
   margin: 15vw;
   margin-top: 0vw;
   margin-bottom: 0vw;
-  padding: 5vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 2vw;
   padding-top: 3vw;
   text-align: justify;
   background-color: white;
@@ -34,6 +36,26 @@ h1 {
   margin-top: 2vw;
   margin-left: 1vw;
   margin-right: 1vw;
+}
+
+button {
+  height: 3vw;
+  width: 13vw;
+  font-size: 15px;
+  margin-top: 2vw;
+  margin-left: 22vw;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-radius: 2vw;
+  border: transparent;
+  background-color: hotpink;
+  color: black;
+  cursor: pointer; 
+}
+  
+section article button:hover {
+  background-color: DeepPink;
+  color: white;
 }
   
   

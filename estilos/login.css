@@ -56,6 +56,8 @@ article form {
 }
   
 form .input {
+  width: 15vw;
+  height: 2vw;
   border: none;
   border-bottom: 1px solid black;
   outline: none;

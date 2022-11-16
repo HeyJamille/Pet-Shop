@@ -13,18 +13,18 @@
 
         <div id="informacoes"> 
             <label for="pix"> Pix </label>
-            <input type="checkbox" class="checkbox" id="pix" name="pix" value ="pix" onclick="validacaoCheckbox(1)">
+            <input type="checkbox" class="checkbox" id="pix" name="pix" value ="pix" onclick="marcaDesmarca(this)">
 
             <label for="dinheiro"> Dinheiro </label>
-            <input type="checkbox" class="checkbox" id="dinheiro" name="dinheiro" value ="dinheiro" onclick="validacaoCheckbox(2)">
+            <input type="checkbox" class="checkbox" id="dinheiro" name="dinheiro" value ="dinheiro" onclick="marcaDesmarca(this)">
             
             <br><br>
 
             <label for="debito"> Débito </label>
-            <input type="checkbox" class="checkbox" id="debito" name="debito" value ="debito" onclick="validacaoCheckbox(3)">
+            <input type="checkbox" class="checkbox" id="debito" name="debito" value ="debito" onclick="marcaDesmarca(this)">
 
             <label for="credito"> Crédito </label>
-            <input type="checkbox" class="checkbox" id="credito" name="credito" value ="credito" onclick="validacaoCheckbox(4)">
+            <input type="checkbox" class="checkbox" id="credito" name="credito" value ="credito" onclick="marcaDesmarca(this)">
         </div>
 
         <button type="button" onclick="finalizar_compras()">Comprar</button>

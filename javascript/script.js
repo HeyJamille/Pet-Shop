@@ -67,6 +67,17 @@ function finalizar_compras() {
 	
 }
 
+// Função da parte de pix, dinheiro, crédito e débito
+function marcaDesmarca(caller) {
+	var checkbox = document.querySelectorAll('input[type="checkbox"]');
+	checkbox.forEach(c => c.checked = (c == caller));
+}
+
+// Função de ao clicar no botão para enviar dúvidas ou feedback
+function agradecimento() {
+	alert("Muito obrigado!" + "\n" + "Em breve, iremos retornar se caso você tiver nos enviado uma dúvida.");
+}
+
 // Validação do login
 function logar() {
 	nome = document.getElementById('nome').value;
@@ -83,7 +94,6 @@ function logar() {
 	else if(nome == "") 
 		alert('Digite seu nome!') 
 }
-
 
 // Validação do cadastro
 function cadastrar() {
