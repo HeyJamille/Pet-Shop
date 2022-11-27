@@ -90,4 +90,8 @@ article #cadastro p {
   margin-top: 2vw;
 }
   
-  
+@media (max-width: 500px) {
+  section {
+    height: 50%;
+  }
+}
