@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/*
+bg-[#ffc0cb]
+bg-custom-radial
+*/
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+p, label {
+  font-size: 20px;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+}

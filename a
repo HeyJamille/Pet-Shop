@@ -1,0 +1,31 @@
+import React from 'react';
+import DataRacaoCachorro from '../utils/DataRacaoCachorro';
+
+// Se o carrinho for um link para a página do carrinho, defina a URL correta
+const carrinho = '/carrinho';
+
+const Cachorro = () => {
+  return (
+    <article>
+      <ul className="product-list">
+        {DataRacaoCachorro.map((product, index) => (
+          <li key={index} className="product-item">
+            <img src={product.image} alt={`Imagem de ${product.name}`} />
+            <p>{product.name}</p>
+            <p>{product.price}</p>
+
+            <div className="quantity">
+              Quantidade: <input type="number" min="1" defaultValue="1" />
+            </div>
+
+            <a href={carrinho}>
+              <button type="button">Adicionar ao Carrinho</button>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </article>
+  );
+};
+
+export default Cachorro;
